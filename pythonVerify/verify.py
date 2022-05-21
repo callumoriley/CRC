@@ -1,3 +1,5 @@
+# the crc_remainder and crc_check functions are not my code, they are from https://en.wikipedia.org/wiki/Cyclic_redundancy_check#Computation
+
 def crc_remainder(input_bitstring, polynomial_bitstring, initial_filler):
     """Calculate the CRC remainder of a string of bits using a chosen polynomial.
     initial_filler should be '1' or '0'.
